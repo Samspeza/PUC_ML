@@ -121,15 +121,11 @@ print("\nTipos dos dados:\n{0}\n".format(gazola.dtypes))
 print(gazola.describe(percentiles=[]))
 
 X = gazola.iloc[:,1:(gazola.shape[1] - 2)]
-
 y = gazola.iloc[:,(gazola.shape[1] - 1)]
 
-# Recupera os nomes dos atributos
 
 atributos = list(gazola)[1:(gazola.shape[1] - 2)]
 rotulo = list(gazola)[(gazola.shape[1] - 1)]
-
-# Exibe o histograma dos atributos.
 
 fig, ax = plt.subplots(2, 3, figsize=(10, 6))
 plt.suptitle("Histograma dos atributos")
