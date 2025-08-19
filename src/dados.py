@@ -109,7 +109,6 @@ correlacao = pd.DataFrame(data=corr, index=int_fields, columns=int_fields)
 
 print("\nMatriz de correlação dos atributos inteiros:\n{0}".format(correlacao))
 
-from google.colab import files
 
 uploaded = files.upload()
 
@@ -146,8 +145,6 @@ for i in range(2):
             ax[i, j].hist(X.iloc[:,(i*3 + j+6)],label=atributos[i*3 + j+6], bins=30)
         ax[i, j].legend()
 
-
-# Amostragem de dados
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=0)
 
