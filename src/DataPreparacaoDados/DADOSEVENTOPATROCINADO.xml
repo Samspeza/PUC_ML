@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eFinanceira xmlns="http://www.eFinanceira.gov.br/schemas/evtCadPatrocinado/v1_2_0">
+  <evtCadPatrocinado id="ID000000000000000001">
+    <ideEvento>
+      <indRetificacao>1</indRetificacao>
+      <tpAmb>1</tpAmb>
+      <aplicEmi>2</aplicEmi>
+      <verAplic>00000000000000000001</verAplic>
+    </ideEvento>
+    <ideDeclarante>
+      <cnpjDeclarante>5566666000606</cnpjDeclarante>
+    </ideDeclarante>
+    <infoPatrocinado>
+      <GIIN>LE.900</GIIN>
+      <CNPJ>22222222222222</CNPJ>
+      <nomePatrocinado>TEATRO POPULAR1</nomePatrocinado>
+      <endereco>
+        <enderecoLivre>ENDERECO RUA AZUL 7890 - CENTRO - RJ</enderecoLivre>
+        <CEP>30575000</CEP>
+        <municipio>RIO DE JANEIRO</municipio>
+        <pais>BRASIL</pais>
+      </endereco>
+      <paisResid>
+        <Pais>BR</Pais>
+      </paisResid>
+    </infoPatrocinado>
+	<infoPatrocinado>
+      <GIIN>999QQQ.00000.LE.999</GIIN>
+      <CNPJ>333333333333333</CNPJ>
+      <nomePatrocinado>EVENTO COMBATE COVID19</nomePatrocinado>
+      <endereco>
+        <enderecoLivre>ENDERECO RUA AMARELO 10 - CENTRO - MG</enderecoLivre>
+        <CEP>357410270</CEP>
+        <municipio>BELO HORIZONTE</municipio>
+        <pais>BRASIL</pais>
+      </endereco>
+      <paisResid>
+        <Pais>BR</Pais>
+      </paisResid>
+    </infoPatrocinado>
+	<infoPatrocinado>
+      <GIIN>888QQQ.00000.LE.999</GIIN>
+      <CNPJ>4444444444444</CNPJ>
+      <nomePatrocinado>AÇÃO SOCIAL</nomePatrocinado>
+      <endereco>
+        <enderecoLivre>ENDERECO RUA ROXO 10 - CENTRO - MG</enderecoLivre>
+        <CEP>357410270</CEP>
+        <municipio>BELO HORIZONTE</municipio>
+        <pais>BRASIL</pais>
+      </endereco>
+      <paisResid>
+        <Pais>BR</Pais>
+      </paisResid>
+    </infoPatrocinado>
+	<infoPatrocinado>
+      <GIIN>888QQQ.00000.LE.999</GIIN>
+      <CNPJ>4444444444444</CNPJ>
+      <nomePatrocinado>AÇÃO SOCIAL NORTE</nomePatrocinado>
+      <endereco>
+        <enderecoLivre>ENDERECO RUA VERDE 40 - ELDORADO - SP</enderecoLivre>
+        <CEP>027410270</CEP>
+        <municipio>SÃO PAULO</municipio>
+        <pais>BRASIL</pais>
+      </endereco>
+      <paisResid>
+        <Pais>BR</Pais>
+      </paisResid>
+    </infoPatrocinado>
+  </evtCadPatrocinado>
+</eFinanceira>
